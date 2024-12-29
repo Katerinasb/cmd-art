@@ -1,0 +1,27 @@
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("HelveticaNeue-Light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: "Helvetica Neue Thin";
+	src: url("HelveticaNeue-Thin.otf") format("opentype");
+}
+
+body {
+	display: flex;
+	justify-items: center;
+	flex-wrap: wrap;
+
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	height: 100%;
+	background-color: #ffffff;
+	font-family: "Helvetica Neue";
+
+	border-left: 25px solid black;
+	border-right: 25px solid black;
+}
+::-webkit-scrollbar {
+	display: none;
+}
