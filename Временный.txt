@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="stylesheet" type="text/css" href="styles/application.css">
+    <title>CMD+ART</title>
+
+</head>
+<body>
+    <section>
+        <div class="app-head" style="justify-content: flex-end;">
+                <p class="page-name">ОСТАВИТЬ ЗАЯВКУ</p>
+                <p class="app-sometext">Напишите нам и расскажите о своем проекте</p>
+        </div>
+        <div class="Application">
+            <form>
+                <p>Ваше имя<input type="text"></p>
+                <p>Ваш номер<input type="text"></p>
+                <p>Ваш проект<input type="text"></p>
+            </form>
+        </div>
+    </section>
+</body>
+
+
+
+
+
+
+
+
+
+body {
+	display: flex;
+	justify-items: center;
+	flex-wrap: wrap;
+
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	height: 100%;
+	background-color: #ffffff;
+}
+.app-head {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.page-name {
+    display: flex;
+	margin-left: 20px;
+	margin-right: 20px;
+    margin-top: 150px;
+    max-width: 500px;
+    font-family: "HeliosExtBlackC";
+    font-size: 96px;
+	font-weight: regular;
+}
+.app-sometext {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 150px;
+    max-width: 500px;
+    padding-top: 10px;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: regular;
+    color: rbga(0 ,0 ,0 ,0.45);
+}
+.Application {
+    display: flex;
+    border: 1px solid black;
+    max-width: 400px;
+    height: 400px;
+    margin: 0 auto;
+}
